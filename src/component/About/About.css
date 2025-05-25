@@ -1,0 +1,189 @@
+.About main
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
+
+}
+
+.About main .image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.About main .imageContainer
+{
+    width: 80%;
+    height: 80%;
+}
+.About main .imageContainer img
+{
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.About main   .text
+{
+    font-size: 13px;
+    font-family: var(--quicksand) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    color: var(--color-text);
+    gap: 20px;
+}
+.About main   .text .top *
+{
+    margin-bottom: 15px;
+
+}
+.About main .in-between
+{
+    font-size: 13px;
+    width: 100%;
+    height:auto ;
+flex-direction: column;
+gap: 30px;
+opacity: 0.8;
+line-height: 1.5;
+}
+.About main   .text h5 
+{
+    font-weight: bolder !important;
+    font-family: var(--quicksand-bold) !important;
+
+}
+.About main   .text h5 span
+{    font-family: var(--quicksand-bold) !important;
+        color: var(--main_color);
+}
+
+
+.About main   .text small
+{
+    font-weight: bold;
+    opacity: 0.7;
+font-size: 13px;
+font-style: italic;
+color: var(--darkColor);
+}
+.About  main   .text p
+{
+    opacity: 0.9;
+}
+
+.About .statistics
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 700;
+color: var(--darkColor);
+    opacity: 0.8;
+    padding: 10px 0px;
+
+}
+.About .statistics section
+{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+
+    width: 150px;
+    height: fit-content;
+    padding: 10px;
+    border: 2px solid var(--main_color);
+text-align: center;
+vertical-align: middle;
+border-radius: 10px;
+transition: 0.5s ease-in-out    ;
+}
+
+.About .statistics section:hover
+{
+    border-radius: 0px;
+}
+
+.About .statistics span
+{
+    font-size: 12px;
+    font-weight: normal;
+    color: var(--color-text);
+}
+
+.About .down  
+{
+    margin-top: 100px;
+}
+.About .down  .SectionsTop h2
+{
+    font-size: 19px;
+}
+
+.About .down  .SectionsTop p
+{
+    font-size: 12px;
+}
+.About .down .P7Home
+{
+    margin-top: 40px;
+}
+
+@media (max-width:971px) {
+ 
+    .About .statistics section
+    {
+        width: 100px;
+    }
+    
+}
+
+@media (max-width:680px) {
+
+
+   .About main
+    {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    } 
+    .About main .text
+    {
+        padding: 20px;
+
+    }
+}
+
+@media (max-width:348px) {
+
+ .About .statistics section
+    {
+        width: 70px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:1025px) {
+.About main
+{
+    grid-template-columns: 600px 600px;
+}
+    .About main .imageContainer
+{
+
+
+    width: 500px;
+}
+
+}

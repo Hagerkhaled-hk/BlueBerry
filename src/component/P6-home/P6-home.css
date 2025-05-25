@@ -1,0 +1,89 @@
+.P6Home
+{
+    margin-top: 70px;
+}
+.P6Home .catg_nav
+{
+    background-color: var(--sec-bg);
+    border: 1px solid var(--main_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+.P6Home .catg_nav button
+{
+        color: var(--color-text);
+text-transform:capitalize ;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.P6Home .catg_nav button.active
+{
+    color: var(--main_color);
+}
+.P6Home .catg_nav span
+{
+    margin-right: 5px;
+}
+
+.P6Home .products
+{
+display: flex;
+justify-content: center;
+align-items: center;
+        margin-top: 35px;
+
+}
+.P6Home .skelton 
+{
+      grid-template-columns: repeat(4,auto);
+
+}
+
+@media (max-width:1016px) {
+  .P6Home  .ProductDesign,
+  .P6Home .skelton 
+
+  {
+    grid-template-columns: repeat(3,auto);
+  }
+    
+}
+@media (max-width:745px) {
+  .P6Home  .ProductDesign,
+  .P6Home .skelton 
+
+  {
+    grid-template-columns: repeat(2,auto);
+justify-content: space-evenly;
+width: 100%;
+}
+    
+}
+
+@media (max-width:650px) {
+.P6Home .Top
+  {
+flex-direction: column !important;
+gap: 10px;
+
+  }
+  
+}
+    @media (max-width:516px) {
+
+        .P6Home  .ProductDesign,
+        .P6Home .skelton 
+
+{
+    grid-template-columns:auto;
+
+}
+
+    }

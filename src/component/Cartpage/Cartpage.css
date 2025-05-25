@@ -1,0 +1,81 @@
+
+
+@media (max-width:700px) {
+
+    .Cartpage .Cartcarbon .Container
+{
+    flex-direction: column;
+}
+.Cartcarbon .Container .right,
+.Cartcarbon .Container .left
+{
+    width: 100%;
+}
+ .Cartcarbon .Container .right table 
+{
+    width: 100%;
+} 
+ .Cartcarbon .Container .right table .image
+ {
+    height: 75px;
+    width: 95px;
+ }
+}
+
+
+
+@media (max-width:412px) {
+
+.Cartcarbon .Container .right table *
+{
+    font-size: 10px;
+}
+.Cartcarbon .Container .right table .image
+ {
+    height: 60px;
+    width: 65px;
+ }
+ .Cartcarbon .Container .right table th
+ {
+    font-size: 12px;
+ }
+
+ 
+}
+
+
+
+
+@media (max-width:363px) {
+
+
+.Cartcarbon .Container .right table p
+ {
+    width: 50px;
+ }
+.Cartcarbon .Container .right table select, .Cartcarbon .Container .right table select *
+{
+    width: 40px !important;
+}
+.Cartcarbon .Container .right table .image_title
+{
+    gap: 5px;
+}
+
+
+
+.Cartcarbon .Container .right table 
+{
+background-color: var(--sec-bg);
+
+}
+.Cartcarbon .Container .right table td,
+.Cartcarbon .Container .right table th
+{padding: 0px;
+
+width: fit-content; 
+height: fit-content;
+padding: 5px;
+
+}
+}

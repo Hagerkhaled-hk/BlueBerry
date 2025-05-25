@@ -1,0 +1,318 @@
+
+.P1Home
+{
+    background-color: var(--sec-bg);
+    width: 100% !important;
+    margin-top: 0px;
+min-height:68vh;    
+display: flex !important;
+justify-content: center;
+align-items: center;
+position: relative !important;
+    font-family: var(--quicksand);
+    color: var(--color-text);
+
+}
+
+  
+.swiper-pagination-bullets
+{
+position: absolute;
+left: 10% !important;
+top: 12% !important;
+height: fit-content !important;
+width: fit-content  !important;
+}
+.swiper-pagination-bullet
+{
+    background: var(--main_color) !important;
+    border-radius: 0px !important;
+    width: 10px !important;
+    height: 12px !important;
+    transition: 0.5s !important;
+    transform: skew(-5deg) !important;
+
+
+}
+
+.swiper-pagination-bullet-active-main
+{    width: 25px !important;
+    transform: skew(-15deg) !important;
+
+
+}
+
+.P1Home #swiper-slide
+{
+display: grid; 
+grid-template-columns:auto auto ;
+justify-content:space-evenly;
+align-items: center;
+background-color: var(--sec-bg);
+padding: 40px;
+}
+
+
+.P1Home #swiper-slide .left
+{
+    position: relative;
+width: 420px;
+}
+.P1Home .left .shape
+{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+}
+.P1Home .card0_ .shape{
+top: 20px;
+right:120px;
+}
+.P1Home  .card1_ .shape{
+top: 18px;
+right:85px;
+}
+.P1Home  .card2_ .shape 
+{
+    top: 18px;
+    right:90px;
+
+}
+
+
+
+.P1Home #swiper-slide .left small
+{
+    color: var(--search-shadow-color);
+
+}
+.P1Home #swiper-slide .left h1
+{
+    font-family: var(--quicksand-bold);
+    font-weight:bolder;
+    color: var(--color-text);
+    font-size: 40px;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+.P1Home #swiper-slide .left h1 span
+{
+    font-family: var(--quicksand_bold);
+
+    
+    color: var(--main_color);
+}
+
+.P1Home #swiper-slide .left button
+{
+    width: 70px ;
+    height: 28px;
+    outline: none;
+    border: 1px solid var(--color-text);
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: var(--color-text);
+}
+.P1Home #swiper-slide .left button:hover
+{
+    background-color: var(--main_color);
+    color: var(--lightColor);
+}
+.P1Home #swiper-slide .right 
+{
+    position: relative;
+}
+.P1Home #swiper-slide .right:has(img,svg)
+{
+    width: 320px;
+}
+
+
+.P1Home #swiper-slide .right .background
+{
+    fill: #ffffff;
+}
+.P1Home #swiper-slide .right .image
+{
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-25%);
+    width: 250px;
+}
+
+@media (max-width:785px) {
+
+  
+.P1Home #swiper-slide .left
+{
+    width: 300px;
+}
+.P1Home #swiper-slide .left h1
+{
+    font-size: 30px;
+}
+    
+.P1Home #swiper-slide .right:has(img,svg)
+{
+    width: 220px;
+}
+
+.P1Home .card0_ .shape{
+top: 19px;
+right:70px;
+}
+.P1Home  .card1_ .shape{
+top: 12px;
+right:48px;
+}
+.P1Home  .card2_ .shape 
+{
+    top: 18px;
+    right:42px;
+
+}
+
+
+}
+
+@media (max-width:587px) {
+
+    .P1Home #swiper-slide .left
+{
+    width: 200px;
+}
+
+.P1Home #swiper-slide .left h1
+{
+    font-size: 22px;
+}
+
+.P1Home #swiper-slide .right .image
+{
+    width: 200px;
+}
+.P1Home #swiper-slide .right:has(img,svg)
+{
+    width: 200px;
+}
+
+.P1Home .card0_ .shape{
+top: 10px;
+right:20px;
+}
+.P1Home  .card1_ .shape{
+top: 12px;
+right:0px;
+}
+.P1Home  .card2_ .shape 
+{
+    top: 10px;
+    right:0px;
+
+}
+
+}
+
+
+
+@media (max-width:447px) {
+
+    .P1Home #swiper-slide .left
+{
+    width: 150px;
+}
+
+.P1Home #swiper-slide .left h1
+{
+    font-size: 18px;
+}
+
+.P1Home #swiper-slide .right .image
+{
+    width: 180px;
+}
+.P1Home #swiper-slide .right:has(img,svg)
+{
+    width: 180px;
+}
+
+.P1Home .card0_ .shape{
+top: 10px;
+right:5px;
+}
+.P1Home  .card1_ .shape{
+top: 9px;
+right:-10px;
+}
+.P1Home  .card2_ .shape 
+{
+    top: 9px;
+    right:-10px;
+
+}
+
+}
+
+
+@media (max-width:381px) {
+
+
+
+    .P1Home #swiper-slide .left
+{
+    width: 100px;
+}
+
+.P1Home #swiper-slide .left h1
+{
+    font-size: 15px;
+}
+
+.P1Home #swiper-slide .right .image
+{
+    width: 140px;
+}
+.P1Home #swiper-slide .right:has(img,svg)
+{
+    width: 140px;
+}
+.P1Home .left .shape
+{
+    width: 20px;
+    height: 20px;
+}
+.P1Home .card0_ .shape{
+top: 48px;
+right:40px;
+}
+.P1Home  .card1_ .shape{
+top: 45px;
+right:28px;
+}
+.P1Home  .card2_ .shape 
+{
+    top: 45px;
+    right:30px;
+
+}
+
+}
+
+
+@media (min-width:1025px) {
+    /*     .P1Home
+    {
+        width: 50% !important;
+    } */
+    .P1Home #swiper-slide
+{
+    grid-template-columns: 300px 300px !important;
+}
+
+}

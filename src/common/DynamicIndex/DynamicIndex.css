@@ -1,0 +1,30 @@
+.DynamicIndex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--sec-bg);
+    height: 55px;
+    padding: 0px 30px;
+    border-top: 1px solid var(--search-border-color);
+    font-size: 13px;
+    font-weight: bolder;
+    color: var(--color-text);
+}
+
+.DynamicIndex p:last-child
+{
+    font-weight: normal;
+}
+
+.DynamicIndex p:last-child svg
+{
+    font-size: 11px;
+    margin: 0px 2px;
+}
+
+.DynamicIndex p:last-child span
+{
+    color: var(--main_color);
+    font-weight: bolder;
+}

@@ -1,0 +1,89 @@
+.P25Home
+{
+        margin-top:100px;
+
+}
+
+.P25Home .clock
+{
+    background: linear-gradient(to right, #f0f0ff, #eef, #f8f8fb, #fff);
+    font-size: 10px;
+     width: max-content;
+     padding: 0px  12px;
+     height: 28px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.167);
+
+    color: rgba(0, 0, 0, 0.514);
+font-family: var(--popines);
+box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 4px;
+box-sizing: border-box;
+}
+
+.P25Home .clock span
+{
+    font-weight: bold;
+    width:20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.648);
+
+}
+
+.product_section 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    }
+
+    .P25Home .skelton
+    {
+        grid-template-columns: repeat(4,auto);
+    }
+
+    @media (max-width:1016px) {
+     .P25Home   .ProductDesign,
+         .P25Home .skelton
+
+        {
+            grid-template-columns: repeat(3,auto);
+        }
+        
+    }
+     @media (max-width:745px) {
+     .P25Home   .ProductDesign,
+         .P25Home .skelton
+
+        {
+            grid-template-columns: repeat(2,auto);
+            justify-content: space-evenly;
+width: 100%;
+
+        }
+        
+    } 
+
+
+    @media (max-width:516px) {
+     .P25Home   .ProductDesign,
+         .P25Home .skelton
+
+{
+        grid-template-columns:auto;
+    }
+     .P25Home   .Top
+     {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+     }
+
+
+
+    }

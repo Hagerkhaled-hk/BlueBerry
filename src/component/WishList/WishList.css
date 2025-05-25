@@ -1,0 +1,154 @@
+.WishList
+{
+ position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    border-radius: 10px;
+    border: 1px solid var(--main_color);
+    padding:10px 10px;
+    overflow-y: auto;
+    background-color:var(--sec-bg);
+    transition: 0.5s ease-in-out;
+    width: 55%;
+    height: 60%;
+opacity: 0;
+visibility: hidden;
+    transform: translate(50%, -50%) scale(0) rotate(180deg);
+transition: 0.5s ease-in-out;
+overflow-x:hidden;
+overflow-y: auto;}
+
+
+.WishList.active
+{
+visibility: visible;
+    transform: translate(50%, -50%) scale(1) rotate(0);
+            transition-delay: .2s ;
+
+    opacity: 1;}
+
+    .WishList:hover .ghost
+{
+     transform: translateY(0px);
+}
+
+.WishList main
+{
+    width: 100%;
+}
+.WishList header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text);
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+margin-bottom: 5px;
+}
+.WishList  .content
+{
+    width: 100%;
+    font-size: 12px;
+
+    color: var(--color-text);
+}
+.WishList   table tr
+{
+    border-bottom:1px solid var(--bs-border-color) ;
+    height: fit-content;
+}
+.WishList   table tr td
+{
+    padding: 5px;
+}
+.WishList  .card,
+.WishList   .image_name
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: fit-content;
+    gap: 10px;
+}
+.WishList  .card .image_name
+{
+    gap: 2px;
+}
+.WishList  .image
+{
+    width: 60px;
+    height: 60px ;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.WishList  img
+{
+width: 100%;
+height: 100%;
+}
+
+     .WishList .trash:hover
+     {
+        transform: scale(1.2);
+color: red !important;
+     }
+
+
+     @media (max-width:790px) {
+        
+        .WishList{
+            width: 80%;
+        }
+     }
+     @media (max-width:556px) {
+        
+        .WishList{
+            width: 90%;
+        }
+     }
+     @media (max-width:440px) {
+        
+        .WishList{
+            width: 95%;
+        }
+
+        .WishList .card, .WishList .image_name
+        {
+            gap: 5px;
+        }
+        .WishList  .addtocart button
+        {
+            padding: 5px !important;
+            font-size: 7px !important;
+            
+        }
+     }
+
+
+          @media (max-width:310px) {
+            .WishList .image{
+    width: 50px;
+    height: 50px;
+}
+
+        .WishList td 
+        {            font-size: 8px !important;
+
+
+        }
+   .WishList  .addtocart button
+        {
+            padding: 2px !important;
+            font-size: 6px !important;
+            
+        }
+
+          }

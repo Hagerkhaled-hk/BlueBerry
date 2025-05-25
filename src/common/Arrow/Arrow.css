@@ -1,0 +1,41 @@
+.Arrow
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+background: conic-gradient(var(--main_color) 10%, var(--sec-bg) 10%);width: 35px;
+height: 35px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0.9;
+cursor: pointer;
+
+}
+
+.Arrow .background
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+justify-content: center;
+align-items: center;
+    background-color: black;
+opacity: 0.9;
+
+}
+.Arrow .up
+{
+    font-size: 15px;
+    
+    
+}
+
+.Arrow  svg
+{
+    fill: white;
+    
+}

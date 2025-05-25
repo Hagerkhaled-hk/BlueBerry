@@ -1,0 +1,45 @@
+
+.Top
+{
+    margin-top:50px ;
+    padding:0px 35px;
+
+}
+
+.SectionsTop 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+}
+.SectionsTop.parent
+{
+align-items: flex-start;
+} 
+
+.SectionsTop p.withchild
+{
+width: 100%;
+}
+
+.SectionsTop  h2{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--popines);
+    color: var(--color-text);
+}
+.SectionsTop h2 span
+{
+color: var(--main_color);
+}
+
+.SectionsTop p  
+{
+    text-align: center;
+    font-size: 10px;
+    color: var(--color-text);
+    font-family: var(--popines);
+    width: 23%  ;
+    
+}

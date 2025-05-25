@@ -1,0 +1,265 @@
+.PocketCart
+{
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    border-radius: 10px;
+    border: 1px solid var(--main_color);
+    padding:10px 10px;
+    overflow-y: auto;
+    background-color:var(--sec-bg);
+    transition: 0.5s ease-in-out;
+    width: 55%;
+    height: 60%;
+opacity: 0;
+visibility: hidden;
+    transform: translate(50%, -50%) scale(0) rotate(180deg);
+transition: 0.5s ease-in-out;
+overflow-x:hidden;
+overflow-y: auto;
+}
+.PocketCart.active
+{
+visibility: visible;
+    transform: translate(50%, -50%) scale(1) rotate(0);
+            transition-delay: .2s ;
+
+    opacity: 1;}
+
+ .ghost
+{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    z-index: 100;
+    transition: 0.5s;
+    transform: translateY(-50px);
+    color: var(--darkColor);
+}
+ .ghost:hover
+{
+    color: rgb(174, 8, 8);
+transform:scale(1.2) ;   
+
+}
+.PocketCart:hover .ghost
+{
+     transform: translateY(0px);
+}
+
+
+.PocketCart  h6
+{
+        color: var(--color-text);
+        font-weight: bold;
+
+}
+
+.PocketCart .Cartcarbon 
+{
+    width:62% !important;
+            margin: 0px !important;
+
+
+}
+.PocketCart .Cartcarbon .Container
+{
+    font-size: 10px !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100% !important;
+    gap: 10px;
+    margin: 0px !important;
+
+}
+.PocketCart .Cartcarbon .Container .left
+{
+    width: 250px;
+    font-size: 9px;
+}
+.Cartcarbon .Container .left .top
+{
+    gap: 5px;
+}
+
+.PocketCart .Cartcarbon .Container .right table *
+{
+font-size: 10px;
+}
+.PocketCart .Cartcarbon .Container .right table select
+{
+width: 45px !important;
+}
+ .PocketCart .Cartcarbon .Container .left .coupon .input_background .input-group *
+{
+    height: 15px;
+    font-size:7px;
+    width: 25px;
+}
+.PocketCart .Cartcarbon .Container .left .coupon .input_background
+{
+height: 30px !important;
+padding: 4px;
+}
+.PocketCart  .Container .right table .image
+{
+    width: 50px !important;
+height: 50px !important;
+object-fit: contain;
+}
+
+.PocketCart .Container .right table .image img 
+{
+    width: 100%;
+    height: 100%;
+}
+.PocketCart .Cartcarbon .Container .right table
+{
+    width: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.068);
+}
+.PocketCart .Cartcarbon .Container .left .coupon .coupon_text .btn
+{
+    font-size: 11px;
+}
+
+.PocketCart  .Cartcarbon.emptyImage
+{
+    width: 100% !important;
+}
+ .PocketCart .emptyImage .image
+{
+width: 200px !important;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+@media (min-width:1016px) {
+    .PocketCart .main   ,
+.PocketCart .Cartcarbon .Container .left {
+        width: 100%;
+    }
+        .PocketCart  .Cartcarbon
+{
+            width: 100% !important;
+
+}
+
+}
+@media (max-width:1016px) {
+    .PocketCart .main   ,
+  .PocketCart .Cartcarbon  .Container .right,
+.PocketCart .Cartcarbon .Container .left {
+        width: 100%;
+    }
+        .PocketCart  .Cartcarbon
+{
+            width: 100% !important;
+
+}
+    
+.PocketCart .Cartcarbon .Container
+{
+    flex-direction: column;
+}
+
+
+ .PocketCart .Container .right table 
+{
+    width: 100%;
+} 
+ .PocketCart .Container .right table  *
+ {
+    width: fit-content;
+ }
+ .PocketCart .Container .right table .image
+ {
+    height: 75px;
+    width: 95px;
+ }
+ .PocketCart .Cartcarbon .Container .left .coupon .input_background .input-group *
+ {
+    height: 20px;
+ }
+}
+
+
+@media (max-width:625px) {
+    .PocketCart
+{
+width: 90%;
+}
+.Cartcarbon .Container .right table p
+ {
+    width: 50px;
+ }
+.Cartcarbon .Container .right table select, .Cartcarbon .Container .right table select *
+{
+    width: 40px !important;
+}
+.Cartcarbon .Container .right table .image_title
+{
+    gap: 5px;
+}
+
+
+
+.Cartcarbon .Container .right table 
+{
+background-color: var(--sec-bg);
+
+}
+.Cartcarbon .Container .right table td,
+.Cartcarbon .Container .right table th
+{padding: 0px;
+
+width: fit-content; 
+height: fit-content;
+padding: 5px;
+
+}
+
+}
+
+
+@media (max-width:547px) {
+
+
+.PocketCart 
+{
+    padding: 0px;
+    
+}
+ .PocketCart .Container .right table .image
+ {
+    height: 33px !important;
+    width: 33px !important;
+ }
+ .PocketCart .Cartcarbon .Container .right table *
+ {
+    font-size: 9px;
+ }
+.PocketCart .Cartcarbon .Container .right table select, .Cartcarbon .Container .right table select *
+{
+
+    width: 40px !important;
+}
+.PocketCart  .Cartcarbon .Container .right table .image_title
+{
+    gap: 5px ;
+}
+}
+
+@media (max-width:504px) {
+
+
+
+}

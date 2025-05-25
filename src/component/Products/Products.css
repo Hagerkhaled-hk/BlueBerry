@@ -1,0 +1,510 @@
+:root {
+    --productPageColor: #F8F8FB
+}
+
+.Products main {
+    margin-top: 70px;
+    display: flex;
+    /*     grid-template-columns: 30% 70%;
+ */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    width: 85%;
+}
+
+.Products main>.left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    width: max-content;
+}
+
+.Products main .left>* {
+
+    margin-bottom: 14px;
+}
+
+.Products main .left .categories {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--sec-bg);
+    border-radius: 1px solid var(--main_color);
+    border: 1px solid var(--main_color);
+    color: var(--color-text);
+    padding: 10px 15px;
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+}
+
+.Products main .left .categories .container {
+
+    padding: 0px;
+}
+
+.Products main .left .categories h5 {
+
+    font-family: var(--quicksand_bold);
+    font-weight: bolder;
+
+}
+
+.Products main .left .categories .checkBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+
+}
+
+.Products main .left .categories .checkBox label {
+    font-size: 14px;
+
+}
+
+
+.Products main .left .categories .checkBox input {
+    width: 12px;
+    height: 13px;
+    box-shadow: none !important;
+}
+
+.form-check-input:checked {
+    background-color: var(--main_color) !important;
+    border-color: var(--main_color) !important;
+
+}
+
+
+.Products main .left .split {
+    background-color: var(--sec-color);
+    border: 1px solid var(--main_color);
+    border-radius: 50px;
+    width: 100%;
+    height: 40px;
+
+}
+
+.Products main .left .image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.DISPLAYPRODUCTS.right {
+    width: fit-content;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.DISPLAYPRODUCTS.right .top {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.DISPLAYPRODUCTS.right .bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+
+}
+
+.DISPLAYPRODUCTS.right .top .controls {
+    width: 100%;
+    height: 55px;
+    background-color: var(--sec-bg);
+    border: 1px solid var(--main_color);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.DISPLAYPRODUCTS.right .controls .view>* {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.DISPLAYPRODUCTS.right .controls button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    transition: 0.5s ease-in-out;
+    width: 30px;
+    height: 30px;
+    color: var(--color-text);
+    border-radius: 10px;
+}
+
+
+.DISPLAYPRODUCTS.right .controls .view button.active {
+    background-color: var(--main_color);
+    color: white;
+
+}
+
+.DISPLAYPRODUCTS.right .controls .sort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.DISPLAYPRODUCTS.right .controls .sort p {
+    font-size: 15px;
+    width: max-content;
+    color: var(--color-text);
+}
+
+.DISPLAYPRODUCTS.right .controls .sort .form-select {
+    width: 160px;
+    height: 31px;
+    font-size: 13px;
+    color: var(--color-text);
+    background-color: var(--sec-bg);
+}
+
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesign {
+    grid-template-columns: repeat(3, auto);
+
+}
+
+
+
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesign .card {
+    width: 244px;
+    height: 390px;
+}
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesign .card .text {
+    gap: 12px;
+}
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesign .card .text .catg,
+.DISPLAYPRODUCTS.right .bottom .ProductDesign .card .text .quntity {
+    font-size: 13px;
+}
+
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesign .card .text .name {
+    font-size: 17px;
+}
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesign .card .text .price {
+    font-size: 11px;
+}
+
+
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesignList {
+    gap: 10px;
+}
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesignList div {
+    width: 32px;
+    height: 32px;
+}
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesignList div>* {
+    font-size: 15px;
+}
+
+
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesign.row {
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card {
+    flex-direction: row;
+    height: 250px;
+    width: 100%;
+}
+
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .image {
+    /* width:350px;
+ */
+    height: 100%;
+}
+
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text {
+    padding: 20px;
+    width: 70%;
+}
+
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .catg,
+.DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .quntity {
+    font-size: 15px;
+}
+
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .name {
+    font-size: 18px;
+}
+
+.DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .price {
+    font-size: 14px;
+}
+
+.DISPLAYPRODUCTS.right .skelton
+{
+    grid-template-columns: repeat(3,auto);
+}
+
+@media (min-width:1025px) {
+
+        .Products main {
+        width: 100%;
+    }
+        
+        
+
+
+}
+
+@media (max-width:1016px) {
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign,
+    .DISPLAYPRODUCTS.right .skelton
+ {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .Products main {
+        width: 100%;
+    }
+
+    .DISPLAYPRODUCTS .ProductDesign .card .text .description {
+        width: 270px;
+        word-wrap: break-word;
+
+    }
+
+}
+
+
+
+@media (max-width:884px) {
+    .DISPLAYPRODUCTS.right {
+
+        width: 100%;
+    }
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign {
+  grid-template-columns: repeat(2, auto);   
+       width: 100%;
+    }
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card {
+        height: 100%;
+    }
+        .Products main .left .image img {
+
+            width: 90%;
+            }
+}
+
+
+
+@media (max-width:835px) {
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign,
+    .DISPLAYPRODUCTS.right .skelton
+ {
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Products main {
+        flex-direction: column;
+    }
+
+    .Products main>.left {
+        width: 100%;
+    }
+
+    .Products main .left .image img {
+        display: none;
+    }
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign .card {
+        width: 260px;
+        height: 400px;
+
+    }
+
+}
+
+
+
+@media (max-width:583px) {
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign,
+    .DISPLAYPRODUCTS.right .skelton
+ {
+        grid-template-columns: auto;
+    }
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign .card {
+        width: 300px;
+    }
+
+}
+
+
+@media (max-width:543px) {
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card {
+        height: 200px;
+    }
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .name {
+        font-size: 15px;
+    }
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .catg,
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .quntity,
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .price {
+        font-size: 12px;
+    }
+
+    .DISPLAYPRODUCTS .ProductDesign .card .text .description {
+        font-size: 11px;
+    }
+}
+
+
+@media (max-width:490px) {
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card {
+        height: 300px;
+    }
+
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .name {
+        font-size: 12px;
+    }
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .catg,
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .quntity,
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .price {
+
+        font-size: 10px;
+    }
+
+    .DISPLAYPRODUCTS .ProductDesign .card .text .description {
+        height: fit-content;
+        width: 100%;
+
+        font-size: 10px;
+    }
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text {
+        width: 66%;
+    }
+
+    .DISPLAYPRODUCTS .ProductDesign .card .text .description {
+
+        font-size: 9px;
+
+    }
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .name {
+        font-size: 10px;
+    }
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .catg,
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .quntity,
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text .price {
+
+        font-size: 8px;
+    }
+}
+
+
+@media (max-width:400px) {
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .image {
+        height: 300px;
+    }
+
+
+    .DISPLAYPRODUCTS.right .controls .view>* {
+        margin-right: 5px;
+    }
+
+    .DISPLAYPRODUCTS.right .top .controls {
+        height: 80px;
+    }
+      .ExploreSlider .swiper-wrapper
+    {
+        width: 50%;
+    }
+
+
+    
+}
+
+
+
+@media (max-width:320px) {
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .image,
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card {
+        height: 300px;
+
+    }
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .text {
+        width: 55%;
+    }
+
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign .card {
+        width: 250px;
+    }
+
+    .DISPLAYPRODUCTS.right .controls .sort .form-select {
+        width: 135px;
+    }
+         .ExploreSlider .swiper-wrapper
+    {
+        width: 50%;
+    }
+  
+}
+
+
+@media (max-width:270px) {
+
+
+    
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card .image,
+    .DISPLAYPRODUCTS.right .bottom .ProductDesign.row .card {
+        height: fit-content;
+
+    }.DISPLAYPRODUCTS.right .controls .sort .form-select {
+        width: 50px;
+    }
+     .DISPLAYPRODUCTS.right .bottom .ProductDesign .card {
+        width: 180px;
+    }
+
+}

@@ -1,0 +1,520 @@
+
+
+:root
+{
+    --search-border: 1px solid #ebe9e980;
+    --search-border-color: #ebe9e980;
+    --search-shadow: 0px 0px 1px rgba(158, 158, 158);
+    --search-shadow-color:   rgba(158, 158, 158)  ;
+}
+body
+{
+    overflow-x: hidden;
+}
+.top .first 
+{
+    background-color: var(--body-color);
+    display: flex;
+    justify-content: space-around;
+    gap:45%;
+     align-items: center;
+     font-size: 13px;
+     color: white;
+     padding: 6px 10px;
+}
+p
+{
+    margin: 0px;
+}
+.top .first p span
+{
+padding: 0px;
+}
+
+.top .first p:last-child span:last-child
+{
+margin-left:10px;
+}
+
+
+
+.in-between 
+{
+/*      background-color: black;
+ */     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 27px;
+    height: 85px;
+
+/*     box-shadow:0px 0px 4px rgba(158, 158, 158, 0.358);
+ */}
+
+.in-between .first
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 45px;
+
+
+
+}
+
+.in-between .first .logo 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.in-between .first .logo img
+{
+    width: 100px;
+}
+
+.in-between .first .search 
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 390px;
+ box-shadow:var(--search-shadow) ;
+ border-radius:5px;
+ position: relative;
+ background-color: var(--lightColor);
+
+
+}
+.in-between .first .search > *
+{
+    margin: 0px;
+    outline: none;
+    border-radius: 0px;
+    height: 100%;
+    border: var(--search-border);
+    background-color:var(--body-bg);
+    font-size: 11px;
+    padding: 10px;
+
+
+}
+.in-between .first .search input
+{
+    width: 62%;
+    border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  background-color: var(--lightColor);
+  color: var(--color-text);
+    
+}
+.in-between .first .search input::placeholder
+{
+    opacity: 1;
+}
+.in-between .first .search .search-cat
+{ 
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    color: var(--color-text);
+      background-color: var(--lightColor);
+
+}
+
+
+
+.in-between .first .search .search-icon
+{
+    position: absolute;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    background: transparent;
+      top: 50%;
+      transform: translateY(-50%);
+  right:15px;
+padding: 0;
+font-weight:bolder;
+font-size: 13px;
+color: var(--color-text);
+
+}
+.in-between .first .search .slide
+{
+    position: absolute;
+    left:0px;
+    top: 101%;
+    width: 100%;
+    background-color: var(--body-bg);
+    height: fit-content;
+    box-shadow: var(--search-shadow);
+    border: var(--search-border);
+z-index: 3;
+  background-color: var(--lightColor);
+
+}
+.in-between .first .search .slide p
+{
+padding: 8px 6px ;
+font-size: 10px; 
+
+}
+.in-between .first .search .slide p:not(:last-of-type)
+{
+
+    border-bottom: 1px solid  rgba(158, 158, 158, 0.461);
+}
+
+.in-between .first .search .slide p:hover,
+.in-between .first .search .search-cat:hover,
+.in-between .first .search input:focus
+{
+    background-color:rgba(158, 158, 158, 0.114) ;
+}
+
+.in-between .add-feature 
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+    
+        
+    
+}
+.in-between .add-feature a 
+{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    gap: 5px;
+    font-size: 29px;
+    color: var(--main_color);
+    text-decoration: none;
+}
+
+.in-between .add-feature a p {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+color: var(--color-text);
+    font-size: 8px;
+
+}
+
+.in-between .add-feature a p  span{
+font-weight: bold;
+font-size: 9px;
+}
+
+
+
+.down ul 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 45px;
+    font-size: 13px;
+    margin-bottom: 0px;
+    border-top: 1px solid var(--bs-border-color);
+    border-bottom: 1px solid var(--bs-border-color);
+} 
+
+.down ul li 
+{
+
+list-style: none;
+padding: 5px;
+
+}
+
+
+.down ul li a{
+    color: var(--color-text);
+
+    text-decoration: none;
+    transition: 0.1s;
+
+
+}
+
+.down ul  li:hover a,
+.down ul a.active
+{
+color: var(--main_color);
+text-shadow: 0px 0px 10px  #6c80d83a,
+0px 10px 10px  #6c80d83a,0px -10px 10px  #6c80d83a
+,10px 0px 10px  #6c80d83a,-10px 0px 10px  #6c80d83a,
+0px 20px 10px  #6c80d818,0px -20px 10px  #6c80d818
+,20px 0px 10px  #6c80d818,-20px 0px 10px  #6c80d818;
+}
+
+
+.down .pages,.down .blogs
+{
+    position: relative;
+}
+.Header .down ul .pages .pagesBlank,
+.Header .down ul .blogs .blogsBlank,
+.menu .meunBlank ,
+.menu .meunBlank  .menuPagesBlank
+{
+    position: absolute;
+    z-index: 100;
+        width:150px;
+    left:-10px;
+    top:30px;
+    background-color: var(--body-bg);
+    height: fit-content;
+    box-shadow: var(--search-shadow);
+    border: var(--search-border);
+    border-radius: 5px;
+    transform: translateY(10px);
+    visibility: hidden;
+    transition: 0.3s ease-in-out ;
+    opacity: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+} 
+
+.Header .down ul .pages:hover .pagesBlank,
+.Header .down ul .blogs:hover .blogsBlank,
+.menu:hover .meunBlank ,
+.menu .pages:hover .menuPagesBlank
+{
+    transform: translateY(0px);
+    visibility: visible;
+    opacity: 1;
+
+}
+
+
+.Header .down ul .pages .pagesBlank a,
+.Header .down ul .blogs .blogsBlank a,
+.menu .meunBlank a,
+.menu .meunBlank .menuPagesBlank a
+{
+
+    padding: 5px 6px ;
+    font-size: 11px; 
+    text-decoration: none;
+        width: 100%;
+            text-shadow: none;
+    color: var(--color-text);
+
+
+   
+}
+
+
+
+.Header .down ul .pages .pagesBlank  a:not(:last-of-type),
+.Header .down ul .blogs .blogsBlank a:not(:last-of-type),
+.menu .meunBlank li:not(:last-of-type),
+.menu .meunBlank .menuPagesBlank a:not(:last-of-type)
+
+{
+
+    border-bottom: 1px solid  rgba(158, 158, 158, 0.461);
+}
+
+.Header .down ul .pages .pagesBlank a:hover,
+.Header .down ul .blogs .blogsBlank a:hover,
+.menu .meunBlank a:hover
+{
+    background-color:rgba(158, 158, 158, 0.114) ;
+    text-shadow: none;
+    color: var(--darkColor);
+}   
+
+.in-between .first .search   .inputBlank
+{
+              position:absolute !important;
+                width:62%;
+                height:150px;
+                background:var( --lightColor);
+                bottom:-150px;
+                right:0px;
+                border:1px solid var(--bs-border-color);
+                box-shadow:var(--bs-box-shadow);
+                z-index:100;
+                display:flex;
+                justify-content:flex-start;
+                align-items:flex-start;
+                flex-direction:column;
+                gap:5px;
+                overflow-y:auto;
+                padding: 2px;
+    
+}
+.in-between .first .search   .inputBlank a
+{
+padding: 5px;
+color: var(--color-text);
+width: 100%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 5px;
+padding: 7px;
+}
+
+.in-between .first .search   .inputBlank a:hover{
+    background-color: rgba(158, 158, 158, 0.114);
+}
+
+
+.menu 
+{
+    position: relative;
+    display: none;
+}
+.menu .meunBlank
+{ position: absolute;
+    background-color: var(--lightColor);
+justify-content: flex-start;
+align-items: flex-start;
+width: fit-content;
+top: 35px !important;
+}
+
+.menu .meunBlank ul 
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.menu .meunBlank ul li 
+{
+    list-style: none;
+        display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width:100px;
+
+
+}
+
+.menu .meunBlank ul li a
+{
+    justify-content:flex-start;
+}
+.menu :hover .menuPages
+{
+    visibility: visible;
+}
+.menu .meunBlank .menuPagesBlank
+{
+    left: 110px;
+    visibility: hidden;
+}
+
+@media (max-width:925px) {
+
+     .Header .top .first
+    {
+        gap: 35%;
+    }
+ 
+    .Header .in-between .first
+    {
+        gap:15px
+    }
+
+    .Header .in-between .add-feature
+    {
+        gap:15px
+    }
+   
+}
+
+
+@media (max-width:855px) {
+
+  .Header .in-between
+  {
+    justify-content: center;
+
+gap: 5px;
+}
+
+
+}
+
+
+@media (max-width: 812px) {
+
+      .Header .in-between
+{
+    height: 115px;
+    flex-direction: column;
+    gap: 20px;
+}
+}
+
+@media (max-width:576px) {
+.menu 
+{
+    display: flex;
+}
+
+.Header .down
+{
+    display: none;
+}
+.Header .top .first
+{
+    font-size: 10px;
+}
+}
+
+@media (max-width:532px) {
+
+.in-between .first .search
+{
+    width: 288px;
+    font-size: 10px;
+}
+}
+@media (max-width:419px) {
+
+    .Header .in-between 
+    {
+        height: 200px;
+    }
+    .Header .in-between .first
+    {
+flex-direction: column;
+    }
+
+
+}
+
+@media (max-width:308px) {
+
+.in-between .first .search
+{
+    width: 150px;
+    font-size: 3px;
+}
+}

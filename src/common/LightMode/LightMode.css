@@ -1,0 +1,145 @@
+.LightMode 
+{
+    position: fixed  ;
+right: -10px;
+top: 50%;
+transform: translateY(-50%);
+z-index: 102;
+}
+
+.LightMode button
+{border-radius: 25%;
+
+padding: 10px ;
+width: 45px;
+height: 45px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+
+}
+
+.LightMode button > *
+{
+animation: rotating 5s linear   infinite;
+}
+
+@keyframes rotating {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.offcanvas-backdrop
+{
+z-index: 99;
+
+}
+
+
+.colorContainer 
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    gap: 30px;
+    color: var(--color-text);
+
+}  
+
+
+.colorContainer .colors
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+}
+.colorContainer .color   
+{
+    width: 50px;
+    height: 50px ;
+    border-radius: 5px;
+    background-color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.colorContainer .color.activeColor
+{
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px black;
+}
+.colorContainer .color:nth-child(1)
+{
+background-color:#6c7fd8 ;    
+}
+.colorContainer .color:nth-child(2)
+{
+background-color:#607d8b;    
+}
+.colorContainer .color:nth-child(3)
+{
+background-color:#5e9bb7 ;    
+}
+.colorContainer .color:nth-child(4)
+{
+background-color:#6C94D8 ;    
+}
+.colorContainer .color:nth-child(5)
+{
+background-color:#a195f9;    
+}
+.colorContainer .color:nth-child(6)
+{
+background-color:#1c1f3b ;    
+}
+
+.mode  
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+    color: var(--color-text);
+
+}
+.mode  .images
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+
+}
+
+.mode  .images > div
+{
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+}
+
+.mode  .images > div.activeImage
+{
+    border-color: var(--main_color);
+
+}
+.mode  .images button
+{
+    padding: 5px;
+
+}
+.mode img
+{
+        border-radius: 5px;
+    width: 130px;
+}

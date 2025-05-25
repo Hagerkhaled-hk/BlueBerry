@@ -1,0 +1,364 @@
+:root
+{
+        --bs-border-color: #dee2e6
+}
+
+
+.ProductDetails .Container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:fit-content;
+    padding: 0px;
+    margin-top: 70px;
+width:100% !important;
+
+}
+.ProductDetails .Container .card
+{
+border: none;
+    width: 100%;
+         overflow: hidden;
+    height: 100%;
+margin-bottom: 0px !important;
+background-color: transparent;
+}
+.ProductDetails .row 
+{
+    height: 100%;
+    width: 90% !important;
+
+justify-content: center;
+align-items: center;
+}
+
+.ProductDetails .Container .image-col
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.ProductDetails .Container .Images 
+{
+    border: 1px solid  var(--bs-border-color);
+border-radius: 10px;
+overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.094),
+     4px 3px 6px rgba(0, 0, 0, 0.055),
+     -4px 3px 6px rgba(0, 0, 0, 0.055);
+width:90%;
+height: 100%;
+}
+.ProductDetails .Container .Images .mainImage 
+{
+    width: 100%;
+    border-bottom: 1px solid  var(--bs-border-color);
+    object-fit: cover;
+overflow: hidden;
+transition: 0.1s;
+}
+.ProductDetails .Container .Images .mainImage img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.ProductDetails .Container .Images .mainImage img:hover
+{
+    transform: scale(2);
+    cursor: crosshair;
+}
+
+.ProductDetails .Container .Images .altImages 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+        padding: 10px 5px;
+        gap: 10px;
+
+
+}
+
+.ProductDetails .Container .Images .altImages div
+{
+    height: 100%;
+    width: 120px;
+    border: 1px solid  var(--bs-border-color);
+    transition: 0.5s;
+    border-radius: 10px;
+object-fit: cover;
+overflow: hidden;
+
+}
+
+.ProductDetails .Container .Images .altImages div:hover
+{
+    border-radius: 20px;
+    border-color: var(--main_color);
+}
+
+.ProductDetails .Container .Images .altImages  img
+{
+    margin: 0px;
+    width:100%;
+    height: 100%;
+padding: 0px;   
+}
+
+.ProductDetails .Container .text-col 
+{
+    margin: 0px !important;
+    width: calc(100%/2);
+}
+.ProductDetails .Container .text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width:120%;
+    font-size: 13px;
+
+}
+.ProductDetails .Container .catg
+{
+ text-align: center;
+width: 100%;
+color:var(--color-text);
+padding-top: 10px;
+    font-size: 18px !important;
+
+}
+.ProductDetails .Container .catg h5{
+    font-size: 15px;
+    color:var(--color-text);
+
+}
+
+.ProductDetails .Container  .card-body  
+{
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     gap: 40px;
+     flex-direction: column;
+     color:var(--color-text);
+ 
+}
+.ProductDetails .Container  .card-body  .card-title
+{
+    font-size: 14px !important;
+    font-weight: bold;
+
+}
+
+
+.ProductDetails .Container  .card-body  .rating 
+{
+    font-size: 14px;
+} 
+.ProductDetails .Container  .card-body  .rating > * 
+{
+    margin-right: 10px;
+
+}
+
+.ProductDetails .Container  .card-body  .rating span >*
+{
+    margin-right: 3px;
+}
+
+.ProductDetails .Container  .card-body  .description
+{
+    opacity: 0.8;
+    line-height:1.8;
+    font-size: 13px;
+
+}
+
+
+.ProductDetails .Container  .card-body .price span
+{
+    color: green;
+
+}
+
+.ProductDetails .Container  .card-body .buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.ProductDetails .Container  .card-body .buttons .top
+{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center ;
+    gap: 5px;
+
+   flex-direction: row;
+}
+.ProductDetails .Container  .card-body .buttons .top button
+{
+    height: 30px;
+    width: 90px;
+    font-size: 12px;
+    margin: 0px;
+}
+.ProductDetails .Container  .card-body .buttons .in-between
+{
+    width: fit-content;
+    height: fit-content;
+padding: 0px;
+    box-shadow: var(--bs-box-shadow);
+
+}
+.ProductDetails .Container  .card-body .buttons .in-between 
+{
+    border-radius:5px;
+    overflow: hidden;
+}
+.ProductDetails .Container  .card-body .buttons .in-between *
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 26px;
+    border-radius: 0;
+}
+
+.ProductDetails .Container  .card-body .buttons .in-between button,
+.ProductDetails .Container  .card-body .buttons .bottom button
+{    background-color: var(--main_color);
+    color: white;
+
+
+}
+.ProductDetails .Container  .card-body .buttons .in-between p
+{
+    font-size:16px;
+background-color: white;
+}
+
+.ProductDetails .Container  .card-body .buttons .bottom 
+{
+    width: 250px;
+    
+}
+.ProductDetails .Container  .card-body .buttons .bottom button
+{
+    width: 100%;
+    height: 32px;
+    font-size: 11px;
+}
+
+
+@media ( max-width:1016px) {
+.ProductDetails .Container .card-body
+
+{
+    gap: 15px;
+}
+.ProductDetails .row
+{
+    width: 100%;
+    height: 100%;
+}
+.ProductDetails .Container .text
+{
+    height: fit-content;
+}
+
+
+
+
+
+
+@media ( max-width:932px) {
+
+    .ProductDetails .Container .Images,
+    .col-md-6,
+    .ProductDetails .Container .text-col
+
+{
+    width: 75%;
+}
+.ProductDetails .Container .card-body .description
+{
+    width: 700px;
+}
+
+.ProductDetails .row{
+    margin: 0px;
+    justify-content: flex-start;
+    width: 100% !important;
+}
+.ProductDetails .Container,
+.ProductDetails .Container .card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.col-md-6 {
+    width: 80%;
+margin-bottom: 20px;
+}
+ 
+}}
+
+@media ( max-width:755px) {
+
+.ProductDetails .Container .card-body .description
+{
+    width: 450px;
+}
+
+}
+@media ( max-width:529px) {
+    .ProductDetails .Container .Images,
+    .col-md-6,
+    .ProductDetails .Container .text-col
+
+{
+    width: 100%;
+}
+.ProductDetails .Container .card-body .description
+{
+    width: 350px;
+}
+
+}
+
+
+@media ( max-width:386px) {
+
+.ProductDetails .Container .card-body .description
+{
+    width: 250px;
+}
+
+}
+
+@media ( max-width:280px) {
+
+
+.ProductDetails .Container .card-body .description
+{
+    width: 180px;
+}
+
+.ProductDetails .Container .card-body .buttons .bottom button
+{
+    width: 55%;
+}
+}

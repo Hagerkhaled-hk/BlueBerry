@@ -1,0 +1,356 @@
+.Compare 
+{
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    margin-top: 80px;
+}
+
+.Compare .left 
+{
+  position: fixed;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        height: fit-content;
+        left:5px;
+        top: 50%;
+box-shadow: var(--bs-box-shadow);       
+padding: 1  0px;
+transform: translateX(-135px);
+transition: 0.5s ease-in-out;
+z-index: 100;
+
+
+
+}
+.Compare .left .buttons
+{
+    overflow-y: scroll;
+  height: 250px;
+    background-color:var(--sec-bg);
+
+width:100% ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+padding: 5px;
+
+
+  }
+
+
+.Compare .left button
+{    background-color:rgba(158, 158, 158, 0.114); 
+    border:1px solid  var(--main_color);
+    width: 100px;
+    height:50px ;
+    padding: 10px;
+    font-size: 9px;
+    color: var(--main_color);
+    border: none;
+}
+
+.Compare .left.active
+{
+  transform: translateY(0px);
+}
+.Compare .open
+{
+  position: absolute;
+  color: var(--main_color);
+left:130px;
+cursor: pointer;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+box-shadow: var(--bs-box-shadow);
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+}
+
+.Compare .left 
+{
+        margin-right: 25px;
+
+}
+
+  
+
+  .Compare .right
+  {
+    width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .Compare .table
+  {
+    display: flex;
+    box-shadow: var(--bs-box-shadow);
+    width:fit-content  !important;
+    border-radius:15px;
+    transition: 0.5s ease-in-out;
+  }
+  
+    
+    .Compare .table div:not(.image)
+    {
+                border-radius: 5px;
+                    background-color:var(--sec-bg);
+
+
+    }
+ 
+ .Compare p 
+ {
+    height: 150px ;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: var(--color-text);
+      padding: 5px;
+            font-size: 13px;
+            line-height:1.9;
+            letter-spacing: 0.2px;
+            overflow: hidden;
+
+ }
+
+
+   .Compare p:not(:first-child,:last-child)
+   {
+
+    height: 45px;
+   }
+   .Compare .data p:not(:last-child)
+{
+                border-bottom: 1px solid var(--search-border-color);
+
+}
+ .Compare .heading p
+ {
+    font-weight: bold;
+    color: white;
+    opacity: 0.9;
+width: 100% !important;
+                border-bottom: 1px solid var(--search-border-color);
+
+    background-color: var(--main_color);
+ 
+     }
+   
+  .Compare  .image_name
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 0px;
+    height:250px ;
+  }
+
+
+    .Compare  .image_name p 
+{
+  font-family: var(--quicksand_bold);
+font-style: italic; 
+height: fit-content;
+width: fit-content;
+background-color: transparent;
+border: none;
+}
+
+.Compare .image
+{
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+background-color: transparent;
+border: none !important;
+padding: 2px;
+
+}
+  .Compare  img
+  {
+    width: 100%;
+    height: 100%;
+
+  }
+
+
+  .Compare  .trash
+  {
+    position: absolute;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+    .Compare .trash:hover
+    {
+      transform: scale(1.2);
+          color: red;
+
+    }
+ .Compare  .swiper-pagination-clickable .swiper-pagination-bullet
+{
+  background-color: var(--main_color);
+  padding: 5px !important ;
+}
+ .Compare  .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizonta
+{
+  width: fit-content !important;
+  left: 50% !important;
+  top: 95% !important ;
+}
+
+@media (max-width:800px) {
+
+  .Compare .swiper-wrapper
+  {
+    width: 700px;
+  }
+  .Compare .right
+{
+
+  width: 400px;
+}
+
+  .Compare
+  {
+justify-content: flex-start;
+padding: 0px 10px;
+  }
+
+}
+
+
+@media (max-width:720px) {
+ .Compare .swiper-wrapper
+  {
+    width: 500px;
+  }
+  .Compare p
+  {
+    
+    font-size: 10px;
+}
+.Compare .image
+{
+  height: 67%;
+}
+  
+}
+
+
+
+@media (max-width:530px) {
+
+.Compare .swiper-wrapper
+  {
+    width: 400px;
+  }
+  .Compare p
+  {
+    
+    font-size: 9px;
+}
+
+.Compare p
+{
+  height: 200px;
+}
+.Compare .image
+{
+  height: 60%;
+}
+
+}
+@media (max-width:437px) {
+
+.Compare .swiper-wrapper
+  {
+    width:380px;
+  }
+  .Compare p
+  {
+    
+    font-size: 9px;
+}
+
+.Compare .image
+{
+  height: 50%;
+}
+
+
+} 
+@media (max-width:406px) {
+/* 
+.Compare .swiper-wrapper
+  {
+    width:350px;
+  } */
+  .Compare p
+  {
+    
+    font-size: 9px;
+}
+
+.Compare .image
+{
+/*   height: 70%;
+ */  width: 90%;
+}
+
+
+} 
+@media (max-width:390px) {
+
+.Compare .swiper-wrapper
+  {
+    width:340px;
+  }
+  .Compare p
+  {
+    
+    font-size: 9px;
+}
+
+ .Compare .image
+{
+  height: 70%;
+} 
+
+.Compare p
+{
+  height: 240px;
+}
+
+
+} 
+
+@media (max-width:340px) {
+.Compare .swiper-wrapper
+  {
+    width:310px;
+  }
+  
+  .Compare
+  {
+padding: 0px;
+  }.Compare p
+{
+  height: 300px;
+}
+ .Compare .image
+{
+  height: 80%;
+  width: 80%;
+} 
+
+}
