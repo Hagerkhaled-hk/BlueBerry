@@ -23,6 +23,7 @@ import product_22 from '../assets/images/new-products/22.jpg'
 import product_23 from '../assets/images/new-products/23.jpg'
 import product_24 from '../assets/images/new-products/24.jpg'
 
+
 export const allProducts = [
     {
       id: 1 ,
@@ -32,11 +33,8 @@ export const allProducts = [
       price : 70.00 ,
       count : 27 ,
       rating : 90 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_10,
-        product_11,
-        product_14,
         product_1
       ] 
     } ,
@@ -48,10 +46,8 @@ export const allProducts = [
       price : 133.00 ,
       count : 13 ,
       rating : 48 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_5,
-        product_13,
         product_2,
       ] 
     } ,
@@ -63,10 +59,8 @@ export const allProducts = [
       price : 433.00 ,
       count : 5 ,
       rating : 72 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_15,
-        product_17,
         product_3
       ] 
     } ,
@@ -78,11 +72,9 @@ export const allProducts = [
       price : 305.00 ,
       count : 7 ,
       rating : 92 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
         product_4,
-        product_13,
-        product_19
       ] 
     } ,
     {
@@ -93,10 +85,9 @@ export const allProducts = [
       price : 263.00 ,
       count : 10 ,
       rating : 89 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_13,
-        product_8
+        product_5 
       ] 
     } ,
     {
@@ -107,10 +98,9 @@ export const allProducts = [
       price : 136.00 ,
       count : 18 ,
       rating : 63 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_1,
-        product_4,
+      
         product_6
       ] 
     } ,
@@ -122,11 +112,10 @@ export const allProducts = [
       price : 302.00 ,
       count : 9 ,
       rating : 80 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
         product_7,
-        product_3,
-        product_1
+      
       ] 
     } ,
     {
@@ -137,10 +126,9 @@ export const allProducts = [
       price : 80.00 ,
       count : 3 ,
       rating : 95 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_1,
-        product_3,
+       
         product_8,
       ] 
     } ,
@@ -152,10 +140,9 @@ export const allProducts = [
       price : 136.00 ,
       count : 18 ,
       rating : 63 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_20,
-        product_5,
+      
         product_9,
       ] 
     } ,
@@ -167,12 +154,11 @@ export const allProducts = [
       price : 80.00 ,
       count : 3 ,
       rating : 98 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_13,
-        product_2 ,
+     
         product_10,
-        product_1
+    
       ] 
     } ,
     {
@@ -183,12 +169,9 @@ export const allProducts = [
       price : 80.00 ,
       count : 3 ,
       rating : 98 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_13,
-        product_2 ,
         product_11,
-        product_1
       ] 
     } ,
     {
@@ -199,12 +182,9 @@ export const allProducts = [
       price : 80.00 ,
       count : 3 ,
       rating : 98 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_13,
         product_12 ,
-        product_10,
-        product_1
       ] 
     } ,
     {
@@ -215,28 +195,22 @@ export const allProducts = [
       price : 80.00 ,
       count : 3 ,
       rating : 98 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
         product_13,
-        product_5 ,
-        product_20,
-        product_1
       ] 
     } ,
     {
       id: 14 ,
-      title : 'Product forteen' ,
+      title : 'Product Ten' ,
       img : product_14 ,
     category: 'fruits',
       price : 80.00 ,
       count : 3 ,
       rating : 98 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
         product_14,
-        product_5 ,
-        product_1,
-        product_8
       ] 
     } ,
     {
@@ -247,12 +221,9 @@ export const allProducts = [
       price : 80.00 ,
       count : 3 ,
       rating : 98 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_6,
         product_15 ,
-        product_10,
-        product_21
       ] 
     } ,
     {
@@ -263,12 +234,9 @@ export const allProducts = [
       price : 80.00 ,
       count : 3 ,
       rating : 98 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
         product_16,
-        product_9 ,
-        product_15,
-        product_19
       ] 
     } ,
     {
@@ -279,12 +247,9 @@ export const allProducts = [
       price : 80.00 ,
       count : 3 ,
       rating : 98 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
         product_17,
-        product_9 ,
-        product_1,
-        product_3
       ] 
     } ,
     {
@@ -295,12 +260,9 @@ export const allProducts = [
       price : 80.00 ,
       count : 3 ,
       rating : 98 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
         product_18,
-        product_6 ,
-        product_24,
-        product_16
       ] 
     } ,
     {
@@ -311,12 +273,9 @@ export const allProducts = [
       price : 80.00 ,
       count : 3 ,
       rating : 98 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_18,
-        product_3 ,
-        product_19,
-        product_23
+        product_18
       ] 
     } ,
     {
@@ -327,10 +286,9 @@ export const allProducts = [
       price : 80.00 ,
       count : 3 ,
       rating : 98 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_20,
-        product_2 ,
+        product_20
       ] 
     } ,
     {
@@ -341,12 +299,9 @@ export const allProducts = [
       price : 80.00 ,
       count : 3 ,
       rating : 98 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_13,
-        product_21 ,
-        product_1
-      ] 
+        product_21       ] 
     } ,
     {
       id: 22 ,
@@ -356,11 +311,9 @@ export const allProducts = [
       price : 80.00 ,
       count : 3 ,
       rating : 98 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
         product_22,
-        product_9 ,
-        product_14,
       ] 
     } ,
     {
@@ -371,12 +324,9 @@ export const allProducts = [
       price : 80.00 ,
       count : 3 ,
       rating : 98 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_13,
-        product_23 ,
-        product_11,
-        product_5
+        product_23 
       ] 
     } ,
     {
@@ -387,10 +337,9 @@ export const allProducts = [
       price : 80.00 ,
       count : 3 ,
       rating : 98 , 
-      discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+      discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
       images : [
-        product_15,
-        product_24 ,
+        product_24 
       ] 
     } ,
   ]
@@ -408,11 +357,8 @@ export const allProducts = [
                 price : 70.00 ,
                 count : 27 ,
                 rating : 90 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
-                  product_10,
-                  product_11,
-                  product_14,
                   product_1
                 ] 
               } ,
@@ -424,10 +370,8 @@ export const allProducts = [
                 price : 133.00 ,
                 count : 13 ,
                 rating : 48 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
-                  product_5,
-                  product_13,
                   product_2,
                 ] 
               } ,
@@ -439,10 +383,8 @@ export const allProducts = [
                 price : 433.00 ,
                 count : 5 ,
                 rating : 72 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
-                  product_15,
-                  product_17,
                   product_3
                 ] 
               } ,
@@ -454,11 +396,9 @@ export const allProducts = [
                 price : 305.00 ,
                 count : 7 ,
                 rating : 92 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
                   product_4,
-                  product_13,
-                  product_19
                 ] 
               } ,
               {
@@ -469,11 +409,9 @@ export const allProducts = [
                 price : 263.00 ,
                 count : 10 ,
                 rating : 89 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
-                  product_13,
-                  product_8
-                ] 
+ product_5                 ] 
               } ,
               {
                 id: 6 ,
@@ -483,10 +421,8 @@ export const allProducts = [
                 price : 136.00 ,
                 count : 18 ,
                 rating : 63 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
-                  product_1,
-                  product_4,
                   product_6
                 ] 
               } ,
@@ -498,11 +434,9 @@ export const allProducts = [
                 price : 302.00 ,
                 count : 9 ,
                 rating : 80 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
                   product_7,
-                  product_3,
-                  product_1
                 ] 
               } ,
               {
@@ -513,10 +447,8 @@ export const allProducts = [
                 price : 80.00 ,
                 count : 3 ,
                 rating : 95 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
-                  product_1,
-                  product_3,
                   product_8,
                 ] 
               } ,
@@ -534,10 +466,8 @@ export const allProducts = [
           price : 136.00 ,
           count : 18 ,
           rating : 63 , 
-          discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+          discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
           images : [
-            product_20,
-            product_5,
             product_9,
           ] 
         } ,
@@ -549,12 +479,9 @@ export const allProducts = [
           price : 80.00 ,
           count : 3 ,
           rating : 98 , 
-          discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+          discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
           images : [
-            product_13,
-            product_2 ,
             product_10,
-            product_1
           ] 
         } ,
         {
@@ -565,12 +492,9 @@ export const allProducts = [
           price : 80.00 ,
           count : 3 ,
           rating : 98 , 
-          discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+          discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
           images : [
-            product_13,
-            product_2 ,
             product_11,
-            product_1
           ] 
         } ,
         {
@@ -581,12 +505,9 @@ export const allProducts = [
           price : 80.00 ,
           count : 3 ,
           rating : 98 , 
-          discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+          discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
           images : [
-            product_13,
             product_12 ,
-            product_10,
-            product_1
           ] 
         } ,
         {
@@ -597,12 +518,9 @@ export const allProducts = [
           price : 80.00 ,
           count : 3 ,
           rating : 98 , 
-          discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+          discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
           images : [
             product_13,
-            product_5 ,
-            product_20,
-            product_1
           ] 
         } ,
         {
@@ -613,12 +531,9 @@ export const allProducts = [
           price : 80.00 ,
           count : 3 ,
           rating : 98 , 
-          discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+          discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
           images : [
             product_14,
-            product_5 ,
-            product_1,
-            product_8
           ] 
         } ,
         {
@@ -629,12 +544,9 @@ export const allProducts = [
           price : 80.00 ,
           count : 3 ,
           rating : 98 , 
-          discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+          discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
           images : [
-            product_6,
             product_15 ,
-            product_10,
-            product_21
           ] 
         } ,
         {
@@ -645,12 +557,9 @@ export const allProducts = [
           price : 80.00 ,
           count : 3 ,
           rating : 98 , 
-          discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+          discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
           images : [
             product_16,
-            product_9 ,
-            product_15,
-            product_19
           ] 
         } ,
         ]
@@ -666,12 +575,9 @@ export const allProducts = [
                 price : 80.00 ,
                 count : 3 ,
                 rating : 98 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
                   product_17,
-                  product_9 ,
-                  product_1,
-                  product_3
                 ] 
               } ,
               {
@@ -682,12 +588,9 @@ export const allProducts = [
                 price : 80.00 ,
                 count : 3 ,
                 rating : 98 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
                   product_18,
-                  product_6 ,
-                  product_24,
-                  product_16
                 ] 
               } ,
               {
@@ -698,12 +601,9 @@ export const allProducts = [
                 price : 80.00 ,
                 count : 3 ,
                 rating : 98 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
                   product_18,
-                  product_3 ,
-                  product_19,
-                  product_23
                 ] 
               } ,
               {
@@ -714,10 +614,9 @@ export const allProducts = [
                 price : 80.00 ,
                 count : 3 ,
                 rating : 98 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
                   product_20,
-                  product_2 ,
                 ] 
               } ,
               {
@@ -728,11 +627,9 @@ export const allProducts = [
                 price : 80.00 ,
                 count : 3 ,
                 rating : 98 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
-                  product_13,
                   product_21 ,
-                  product_1
                 ] 
               } ,
               {
@@ -743,11 +640,9 @@ export const allProducts = [
                 price : 80.00 ,
                 count : 3 ,
                 rating : 98 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
                   product_22,
-                  product_9 ,
-                  product_14,
                 ] 
               } ,
               {
@@ -758,12 +653,9 @@ export const allProducts = [
                 price : 80.00 ,
                 count : 3 ,
                 rating : 98 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
-                  product_13,
                   product_23 ,
-                  product_11,
-                  product_5
                 ] 
               } ,
               {
@@ -774,16 +666,14 @@ export const allProducts = [
                 price : 80.00 ,
                 count : 3 ,
                 rating : 98 , 
-                discription : 'More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go. Cover Flow. Browse through your music collection by flipping..',
+                discription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem odit corporis voluptates distinctio temporibus neque natus harum! Magni atque quam eos voluptatum voluptatibus quos quo possimus obcaecati perferendis nisi!',
                 images : [
-                  product_15,
                   product_24 ,
                 ] 
               } ,
         ]
     }
   ]
-
 
   export const categoriesInfo = [
     {
