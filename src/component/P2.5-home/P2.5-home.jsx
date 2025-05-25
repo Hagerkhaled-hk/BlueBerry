@@ -23,9 +23,9 @@ export default function P25Home()
         </SectionsTop>
 
 <section className="product_section">
-    <ProductDesign Products={[]}  />
-{/* allProducts.slice(0,4)
- */}  </section>
+    <ProductDesign Products={allProducts.slice(0,4)}  />
+
+  </section>
 </div>
 
     )
