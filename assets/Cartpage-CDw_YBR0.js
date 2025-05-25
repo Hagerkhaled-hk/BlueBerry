@@ -1,1 +1,0 @@
-import{j as r,D as t}from"./index-DLGe5lyt.js";import{C as a}from"./Cartcarbon-qIpPvjMu.js";import"./index-BZEZlbZ1.js";import"./iconBase-BgGTGn_U.js";import"./use-animation-CympqYEX.js";function p(){return r.jsxs("div",{className:"Cartpage",children:[r.jsx(t,{tilte:"Cart",page:["Cart"]}),r.jsx(a,{})]})}export{p as default};
